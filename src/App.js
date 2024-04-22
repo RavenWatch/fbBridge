@@ -23,7 +23,7 @@ function App() {
   const [previousResults,setPreviousResults]=useState([])
   const [isResultInvalid,setIsResultInvalid]=useState(false)
   const isOnProductionMode=false
-  const backendURL= isOnProductionMode? "" : "http://localhost:8000/"
+  const backendURL= isOnProductionMode? "bck-g5r5llhdn-julio-raposos-projects.vercel.app" : "http://localhost:8000/"
   return (
     <Box
       display="flex"
